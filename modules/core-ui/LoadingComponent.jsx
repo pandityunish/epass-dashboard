@@ -27,7 +27,7 @@ export default function LoadingComponent({ isLoading }) {
   return (
     <div className="flex items-center flex-col justify-center mt-10 h-[100vh] w-[100%]">
       <Image
-        src={require("../../../organization-site/app/assets/epass.png")}
+        src={"/icon.jpg"}
         alt=""
         className="h-14 "
         width={100}
